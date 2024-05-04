@@ -1,2 +1,3 @@
+#!/bin/sh
 npm install
-tail - f /dev/null
+tail -f /dev/null

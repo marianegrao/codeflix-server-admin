@@ -1,0 +1,29 @@
+{
+  "name": "codeflix-server-admin",
+  "version": "1.0.0",
+  "description": "Gerenciador de vídeos, categorias,  - Full Cycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianegrao/codeflix-server-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianegrao/codeflix-server-admin/issues"
+  },
+  "homepage": "https://github.com/marianegrao/codeflix-server-admin#readme",
+  "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.4.17",
+    "@swc/jest": "^0.2.36",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
