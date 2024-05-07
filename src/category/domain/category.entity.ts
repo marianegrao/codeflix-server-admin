@@ -1,7 +1,7 @@
 export type CategoryConstructorProps = {
   category_id?: string
   name: string
-  description: string | null
+  description?: string | null
   is_active?: boolean
   created_at?: Date
 }
@@ -46,7 +46,7 @@ export class Category {
   }
 
   deactivate() {
-    this.is_active = true
+    this.is_active = false
   }
 
   toJSON() {
